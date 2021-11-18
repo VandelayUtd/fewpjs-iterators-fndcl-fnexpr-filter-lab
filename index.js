@@ -1,11 +1,11 @@
 // Code your solution here
 
-function findMatching(drivers, name){
-    let matches = drivers.filter(driver => 
-        driver.toLowerCase() == name.toLowerCase()
-    )
-    return matches
-}
+// function findMatching(drivers, name){
+//     let matches = drivers.filter(driver => 
+//         driver.toLowerCase() === name.toLowerCase()
+//     )
+//     return matches
+// }
 
 function fuzzyMatch(drivers, testString) {
     return drivers.filter( driver =>
@@ -16,3 +16,37 @@ function fuzzyMatch(drivers, testString) {
   function matchName(drivers, name) {
     return drivers.filter( record => record.name === name)
   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+function findMatching(drivers, name){
+  return drivers.filter(driver => driver.toLowerCase() == name.toLowerCase())
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
